@@ -1,0 +1,14 @@
+.outer-container{
+  height: 20px;
+  width: 50%;
+  border-radius: 20px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.inner-container{
+  height: 100%;
+  background-color: green;
+  transition: width 0.5s ease;
+  border-radius: 20px;
+}
